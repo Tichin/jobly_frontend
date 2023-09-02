@@ -6,7 +6,7 @@ import { useState } from 'react';
 import JoblyApi from './api.js';
 import jwt_decode from "jwt-decode";
 import userContext from "./userContext";
-
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
 
 
 /**

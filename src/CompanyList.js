@@ -3,6 +3,7 @@ import CompanyCard from './CompanyCard';
 import SearchForm from './SearchForm';
 import JoblyApi from './api';
 import { Link } from 'react-router-dom';
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
 
 /** Presentional Component
  * Display a list of companies and search form

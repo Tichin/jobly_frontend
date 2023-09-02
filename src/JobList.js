@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import SearchForm from './SearchForm';
 import JobCardList from './JobCardList';
 import JoblyApi from './api';
+const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
 
 /** Presentional Component
  * Display a list of jobs and a search form
